@@ -1,4 +1,4 @@
-import { serializeQuery } from './query';
+import { serializeQuery } from '../../global/utils/query';
 
 export function silentSetQuery(query: any) {
   if (window.history.pushState) {

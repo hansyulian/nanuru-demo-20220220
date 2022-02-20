@@ -1,5 +1,5 @@
 import { Model, InferAttributes, InferCreationAttributes, CreationOptional, Sequelize, DataTypes, Association, HasManyGetAssociationsMixin, NonAttribute } from 'sequelize';
-import { uuid } from 'utils/uuid';
+import { uuid } from 'global/utils/uuid';
 import { UserCart } from './UserCart';
 
 export enum ItemStatus {

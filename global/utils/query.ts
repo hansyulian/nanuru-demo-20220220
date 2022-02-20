@@ -1,4 +1,4 @@
-import { KeyValuePair } from 'CustomTypes';
+import { KeyValuePair } from 'global/CustomTypes';
 
 export function parseQuery(stringQuery?: string): KeyValuePair<string> {
   if (stringQuery === undefined) {

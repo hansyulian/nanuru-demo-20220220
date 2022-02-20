@@ -1,4 +1,4 @@
-import { KeyValuePair } from 'CustomTypes';
+import { KeyValuePair } from 'global/CustomTypes';
 
 export function replaceAll(
   source: string,

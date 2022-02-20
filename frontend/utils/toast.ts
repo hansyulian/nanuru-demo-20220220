@@ -1,4 +1,4 @@
-import { CustomError } from 'CustomTypes';
+import { CustomError } from 'global/CustomTypes';
 import { toast, ToastOptions } from 'react-toastify';
 
 export function showToast(message: string, options: ToastOptions = {}) {

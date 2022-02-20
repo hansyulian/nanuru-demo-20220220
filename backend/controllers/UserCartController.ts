@@ -1,4 +1,4 @@
-import { RecordList } from "CustomTypes";
+import { RecordList } from "global/CustomTypes";
 import { ItemNotFoundException, UserCartNotFoundException, UserNotFoundException } from "backend/exceptions/NotFoundExceptions";
 import models from "backend/models";
 import { Item, ItemStatus } from "backend/models/Item";

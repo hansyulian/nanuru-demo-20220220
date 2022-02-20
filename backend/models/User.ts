@@ -1,6 +1,6 @@
 import { Model, InferAttributes, InferCreationAttributes, CreationOptional, Sequelize, DataTypes, Association, HasManyGetAssociationsMixin, NonAttribute } from 'sequelize';
-import { verifyPasswordHash } from 'utils/hash';
-import { uuid } from 'utils/uuid';
+import { verifyPasswordHash } from 'global/utils/hash';
+import { uuid } from 'global/utils/uuid';
 import { UserCart } from './UserCart';
 
 export enum UserStatus {

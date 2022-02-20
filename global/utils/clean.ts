@@ -1,4 +1,4 @@
-import { KeyValuePair } from 'CustomTypes';
+import { KeyValuePair } from 'global/CustomTypes';
 
 export function cleanUndefined(obj: KeyValuePair<any>): KeyValuePair {
   const result: KeyValuePair = {};

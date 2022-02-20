@@ -1,4 +1,4 @@
-import { CustomError } from 'CustomTypes';
+import { CustomError } from 'global/CustomTypes';
 
 export function parseError(err: Error): CustomError {
   const message = err.message;

@@ -1,4 +1,4 @@
-import { SelectOption } from 'CustomTypes';
+import { SelectOption } from 'global/CustomTypes';
 
 export function findSelectOptionByValue(
   options: SelectOption[],

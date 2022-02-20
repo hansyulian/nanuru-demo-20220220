@@ -1,5 +1,5 @@
 import { Model, InferAttributes, InferCreationAttributes, CreationOptional, Sequelize, DataTypes, Association, NonAttribute } from 'sequelize';
-import { uuid } from 'utils/uuid';
+import { uuid } from 'global/utils/uuid';
 import { Item } from './Item';
 import { User } from './User';
 

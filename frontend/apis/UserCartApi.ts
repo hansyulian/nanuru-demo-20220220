@@ -1,4 +1,4 @@
-import { ListQuery, RecordList } from "CustomTypes";
+import { ListQuery, RecordList } from "global/CustomTypes";
 import { UserCart } from "frontend/models/UserCart";
 import { ApiClient } from "frontend/modules/ApiClient";
 

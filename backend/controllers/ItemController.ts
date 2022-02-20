@@ -1,4 +1,4 @@
-import { RecordList } from 'CustomTypes';
+import { RecordList } from 'global/CustomTypes';
 import models from 'backend/models'
 import { Item } from 'backend/models/Item';
 

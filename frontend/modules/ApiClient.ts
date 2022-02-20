@@ -1,14 +1,14 @@
 import axios, { AxiosRequestConfig, AxiosRequestHeaders } from 'axios';
 import { frontendConfig } from 'frontend/config/config';
-import { Resolve, Reject, KeyValuePair } from 'CustomTypes';
+import { Resolve, Reject, KeyValuePair } from 'global/CustomTypes';
 import jwt from 'jsonwebtoken';
-import { fromNowSeconds } from 'utils/fromNow';
+import { fromNowSeconds } from 'global/utils/fromNow';
 // import { ImageFileBase64 } from 'Models/LocalFile';
-import { cleanUndefined } from 'utils/clean';
-import { normalizeUrl } from 'utils/normalizeUrl';
-import { serializeQuery } from 'utils/query';
+import { cleanUndefined } from 'global/utils/clean';
+import { normalizeUrl } from 'global/utils/normalizeUrl';
+import { serializeQuery } from 'global/utils/query';
 import { serverResourcePath } from 'frontend/utils/serverResourcePath';
-import { uuid } from 'utils/uuid';
+import { uuid } from 'global/utils/uuid';
 
 export type UserSession = {
   id?: string;

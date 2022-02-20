@@ -1,4 +1,4 @@
-import { SelectOption } from 'CustomTypes';
+import { SelectOption } from 'global/CustomTypes';
 
 export function getTextByValue<T extends string = string>(
   value: T | undefined,

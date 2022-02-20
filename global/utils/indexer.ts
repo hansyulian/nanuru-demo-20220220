@@ -1,4 +1,4 @@
-import { KeyValuePair } from 'CustomTypes';
+import { KeyValuePair } from 'global/CustomTypes';
 
 export function indexRecords<T extends Record<string, any>>(
   array: T[],
