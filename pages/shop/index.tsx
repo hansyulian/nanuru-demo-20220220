@@ -3,7 +3,7 @@ import { useCallback, useState, useEffect } from "react";
 import * as React from 'react';
 import { Grid, CardMedia, Stack, Box, Typography, Container, Button, Card, CardActions, CardContent, Fab, Badge } from '@mui/material';
 import { ItemApi } from "apis/ItemApi";
-import { Item } from "frontend-models/Item";
+import { Item } from "frontend/models/Item";
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { UserCartApi } from "apis/UserCartApi";
