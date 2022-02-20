@@ -1,9 +1,9 @@
 import { RecordList } from "CustomTypes";
-import { ItemNotFoundException, UserCartNotFoundException, UserNotFoundException } from "exceptions/NotFoundExceptions";
-import models from "models";
-import { Item, ItemStatus } from "models/Item";
-import { UserStatus } from "models/User";
-import { UserCart } from "models/UserCart";
+import { ItemNotFoundException, UserCartNotFoundException, UserNotFoundException } from "backend/exceptions/NotFoundExceptions";
+import models from "backend/models";
+import { Item, ItemStatus } from "backend/models/Item";
+import { UserStatus } from "backend/models/User";
+import { UserCart } from "backend/models/UserCart";
 
 export type UserCartControllerCreate = {
   userId: string;

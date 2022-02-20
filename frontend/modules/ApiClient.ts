@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosRequestHeaders } from 'axios';
-import { frontendConfig } from 'config/frontendConfig';
+import { frontendConfig } from 'frontend/config/config';
 import { Resolve, Reject, KeyValuePair } from 'CustomTypes';
 import jwt from 'jsonwebtoken';
 import { fromNowSeconds } from 'utils/fromNow';
@@ -7,7 +7,7 @@ import { fromNowSeconds } from 'utils/fromNow';
 import { cleanUndefined } from 'utils/clean';
 import { normalizeUrl } from 'utils/normalizeUrl';
 import { serializeQuery } from 'utils/query';
-import { serverResourcePath } from 'utils/serverResourcePath';
+import { serverResourcePath } from 'frontend/utils/serverResourcePath';
 import { uuid } from 'utils/uuid';
 
 export type UserSession = {

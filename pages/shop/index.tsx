@@ -2,12 +2,12 @@ import { NextPage } from "next"
 import { useCallback, useState, useEffect } from "react";
 import * as React from 'react';
 import { Grid, CardMedia, Stack, Box, Typography, Container, Button, Card, CardActions, CardContent, Fab, Badge } from '@mui/material';
-import { ItemApi } from "apis/ItemApi";
+import { ItemApi } from "frontend/apis/ItemApi";
 import { Item } from "frontend/models/Item";
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { UserCartApi } from "apis/UserCartApi";
-import styles from 'styles/Shop.module.css'
+import { UserCartApi } from "frontend/apis/UserCartApi";
+import styles from 'frontend/styles/Shop.module.css'
 
 
 const Page: NextPage = () => {

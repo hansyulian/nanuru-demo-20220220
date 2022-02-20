@@ -1,5 +1,5 @@
 // eslint-disable-next-line @next/next/no-server-import-in-page
-import { User } from "models/User";
+import { User } from "backend/models/User";
 import { NextApiResponse, NextApiRequest } from "next";
 
 export type RouteContext<T = { [key: string]: string | number | boolean }> = {

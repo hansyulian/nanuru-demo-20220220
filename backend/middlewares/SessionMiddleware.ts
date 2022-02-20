@@ -1,5 +1,5 @@
-import { UserNotFoundException } from "exceptions/NotFoundExceptions";
-import models from "models";
+import { UserNotFoundException } from "backend/exceptions/NotFoundExceptions";
+import models from "backend/models";
 import { RouteContext } from "modules/Router";
 
 export async function sessionMiddleware(context: RouteContext) {

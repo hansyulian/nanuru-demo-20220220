@@ -1,4 +1,4 @@
-import { router } from 'modules/Router'
+import { router } from 'backend/modules/Router'
 
 export default router({
   get: {

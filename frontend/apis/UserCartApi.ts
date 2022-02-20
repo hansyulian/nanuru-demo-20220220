@@ -1,6 +1,6 @@
 import { ListQuery, RecordList } from "CustomTypes";
-import { UserCart } from "frontend-models/UserCart";
-import { ApiClient } from "modules/ApiClient";
+import { UserCart } from "frontend/models/UserCart";
+import { ApiClient } from "frontend/modules/ApiClient";
 
 const client = new ApiClient('user-cart');
 

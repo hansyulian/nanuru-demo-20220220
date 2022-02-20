@@ -1,5 +1,5 @@
-import { ItemController } from 'controllers/ItemController';
-import { router } from 'modules/Router'
+import { ItemController } from 'backend/controllers/ItemController';
+import { router } from 'backend/modules/Router'
 
 export default router({
   get: {

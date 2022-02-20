@@ -1,6 +1,6 @@
 import { ListQuery, RecordList } from "CustomTypes";
-import { Item } from "frontend-models/Item";
-import { ApiClient } from "modules/ApiClient";
+import { Item } from "frontend/models/Item";
+import { ApiClient } from "frontend/modules/ApiClient";
 
 const client = new ApiClient('item');
 
