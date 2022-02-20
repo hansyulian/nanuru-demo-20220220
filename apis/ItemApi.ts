@@ -1,0 +1,13 @@
+import { ListQuery, RecordList } from "CustomTypes";
+import { Item } from "frontend-models/Item";
+import { ApiClient } from "modules/ApiClient";
+
+const client = new ApiClient('item');
+
+export const ItemApi = {
+  list,
+}
+
+async function list(query: ListQuery) {
+  return client.get<RecordList<Item>>('', query);
+}
